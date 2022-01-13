@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cwk/c++/C-Compiler/Lexer.cpp
+Lexer.h
+/home/cwk/c++/C-Compiler/Lexer.h
+cstring
+-
+
+/home/cwk/c++/C-Compiler/Lexer.h
+string
+-
+memory
+-
+

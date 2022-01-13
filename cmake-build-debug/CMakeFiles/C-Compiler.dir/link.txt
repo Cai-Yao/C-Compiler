@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/C-Compiler.dir/main.cpp.o CMakeFiles/C-Compiler.dir/Lexer.cpp.o CMakeFiles/C-Compiler.dir/Parser.cpp.o CMakeFiles/C-Compiler.dir/CodeGen.cpp.o  -o C-Compiler 

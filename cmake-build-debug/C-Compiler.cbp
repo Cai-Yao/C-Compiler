@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cwk/c++/C-Compiler/AstNode.cpp">
+			<Option target="C-Compiler"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/AstNode.h">
+			<Option target="C-Compiler"/>
+		</Unit>
 		<Unit filename="/home/cwk/c++/C-Compiler/CodeGen.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
@@ -98,6 +104,12 @@
 			<Option target="C-Compiler"/>
 		</Unit>
 		<Unit filename="/home/cwk/c++/C-Compiler/Parser.h">
+			<Option target="C-Compiler"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/PrintVisitor.cpp">
+			<Option target="C-Compiler"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/PrintVisitor.h">
 			<Option target="C-Compiler"/>
 		</Unit>
 		<Unit filename="/home/cwk/c++/C-Compiler/main.cpp">

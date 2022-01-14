@@ -123,6 +123,33 @@ C-Compiler/fast:
 	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/build
 .PHONY : C-Compiler/fast
 
+AstNode.o: AstNode.cpp.o
+
+.PHONY : AstNode.o
+
+# target to build an object file
+AstNode.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.o
+.PHONY : AstNode.cpp.o
+
+AstNode.i: AstNode.cpp.i
+
+.PHONY : AstNode.i
+
+# target to preprocess a source file
+AstNode.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.i
+.PHONY : AstNode.cpp.i
+
+AstNode.s: AstNode.cpp.s
+
+.PHONY : AstNode.s
+
+# target to generate assembly for a file
+AstNode.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.s
+.PHONY : AstNode.cpp.s
+
 CodeGen.o: CodeGen.cpp.o
 
 .PHONY : CodeGen.o
@@ -204,6 +231,33 @@ Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Parser.cpp.s
 .PHONY : Parser.cpp.s
 
+PrintVisitor.o: PrintVisitor.cpp.o
+
+.PHONY : PrintVisitor.o
+
+# target to build an object file
+PrintVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o
+.PHONY : PrintVisitor.cpp.o
+
+PrintVisitor.i: PrintVisitor.cpp.i
+
+.PHONY : PrintVisitor.i
+
+# target to preprocess a source file
+PrintVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.i
+.PHONY : PrintVisitor.cpp.i
+
+PrintVisitor.s: PrintVisitor.cpp.s
+
+.PHONY : PrintVisitor.s
+
+# target to generate assembly for a file
+PrintVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.s
+.PHONY : PrintVisitor.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C-Compiler"
+	@echo "... AstNode.o"
+	@echo "... AstNode.i"
+	@echo "... AstNode.s"
 	@echo "... CodeGen.o"
 	@echo "... CodeGen.i"
 	@echo "... CodeGen.s"
@@ -249,6 +306,9 @@ help:
 	@echo "... Parser.o"
 	@echo "... Parser.i"
 	@echo "... Parser.s"
+	@echo "... PrintVisitor.o"
+	@echo "... PrintVisitor.i"
+	@echo "... PrintVisitor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

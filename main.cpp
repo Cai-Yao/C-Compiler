@@ -3,18 +3,38 @@
 //
 #include <iostream>
 #include "Lexer.h"
+#include "Parser.h"
+#include "PrintVisitor.h"
 
 using namespace CC;
 
-int main()
-{
-    const char *code = " 5 + 1 - 3 * 4 / 2";
+const char *code = " 5 + 1 - 3 * 4 / 2";
 
+void testLex() {
     Lexer lex(code);
 
     do {
         lex.GetNextToken();
         std::cout <<  lex.CurrentToken->Content << std::endl;
     } while (lex.CurrentToken->Kind != TokenKind::Eof);
+}
 
+void testParser() {
+    Lexer lex(code);
+    lex.GetNextToken();
+
+    Parser parser(lex);
+    PrintVisitor visitor;
+
+    auto root = parser.Parse();
+    root->Accept(&visitor);
+}
+
+int main()
+{
+
+    testLex();
+    testParser();
+
+    return 0;
 }

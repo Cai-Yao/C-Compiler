@@ -39,8 +39,8 @@ void CC::Lexer::GetNextToken() {
         kind = TokenKind::Num;
         value = 0;
         do {
-            GetNextChar();
             value = value * 10 + CurChar - '0';
+            GetNextChar();
         } while (std::isdigit(CurChar));
     } else {
         printf("not support %c\n", CurChar);

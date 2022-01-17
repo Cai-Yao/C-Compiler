@@ -5,6 +5,8 @@
 #include "Lexer.h"
 #include "Parser.h"
 #include "PrintVisitor.h"
+#include "CodeGen.h"
+
 
 using namespace CC;
 
@@ -30,11 +32,28 @@ void testParser() {
     root->Accept(&visitor);
 }
 
-int main()
+int main(int argc, char *argv[])
 {
 
-    testLex();
-    testParser();
+    if (argc != 2) {
+        printf("please input: ./C-Compiler code\n");
+        return 0;
+    }
+
+    const char *source = argv[1];
+
+    //testLex();
+    //testParser();
+
+    Lexer lex(code);
+    lex.GetNextToken();
+
+    Parser parser(lex);
+    CodeGen codegen;
+
+
+    auto root = parser.Parse();
+    root->Accept(&codegen);
 
     return 0;
 }

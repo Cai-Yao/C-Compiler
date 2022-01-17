@@ -4,6 +4,7 @@
 CMakeFiles/C-Compiler.dir/AstNode.cpp.o: ../AstNode.cpp
 CMakeFiles/C-Compiler.dir/AstNode.cpp.o: ../AstNode.h
 
+CMakeFiles/C-Compiler.dir/CodeGen.cpp.o: ../AstNode.h
 CMakeFiles/C-Compiler.dir/CodeGen.cpp.o: ../CodeGen.cpp
 CMakeFiles/C-Compiler.dir/CodeGen.cpp.o: ../CodeGen.h
 
@@ -20,6 +21,7 @@ CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o: ../PrintVisitor.cpp
 CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o: ../PrintVisitor.h
 
 CMakeFiles/C-Compiler.dir/main.cpp.o: ../AstNode.h
+CMakeFiles/C-Compiler.dir/main.cpp.o: ../CodeGen.h
 CMakeFiles/C-Compiler.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/C-Compiler.dir/main.cpp.o: ../Parser.h
 CMakeFiles/C-Compiler.dir/main.cpp.o: ../PrintVisitor.h

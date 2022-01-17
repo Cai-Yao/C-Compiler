@@ -10,29 +10,13 @@
 memory
 -
 
-/home/cwk/c++/C-Compiler/Lexer.h
-string
--
-memory
+/home/cwk/c++/C-Compiler/CodeGen.cpp
+CodeGen.h
+/home/cwk/c++/C-Compiler/CodeGen.h
+cassert
 -
 
-/home/cwk/c++/C-Compiler/Parser.h
-Lexer.h
-/home/cwk/c++/C-Compiler/Lexer.h
+/home/cwk/c++/C-Compiler/CodeGen.h
 AstNode.h
 /home/cwk/c++/C-Compiler/AstNode.h
-
-/home/cwk/c++/C-Compiler/PrintVisitor.h
-AstNode.h
-/home/cwk/c++/C-Compiler/AstNode.h
-
-/home/cwk/c++/C-Compiler/main.cpp
-iostream
--
-Lexer.h
-/home/cwk/c++/C-Compiler/Lexer.h
-Parser.h
-/home/cwk/c++/C-Compiler/Parser.h
-PrintVisitor.h
-/home/cwk/c++/C-Compiler/PrintVisitor.h
 

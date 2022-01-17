@@ -5,6 +5,7 @@ CMakeFiles/C-Compiler.dir/AstNode.cpp.o
  /home/cwk/c++/C-Compiler/AstNode.cpp
  /home/cwk/c++/C-Compiler/AstNode.h
 CMakeFiles/C-Compiler.dir/CodeGen.cpp.o
+ /home/cwk/c++/C-Compiler/AstNode.h
  /home/cwk/c++/C-Compiler/CodeGen.cpp
  /home/cwk/c++/C-Compiler/CodeGen.h
 CMakeFiles/C-Compiler.dir/Lexer.cpp.o
@@ -21,6 +22,7 @@ CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o
  /home/cwk/c++/C-Compiler/PrintVisitor.h
 CMakeFiles/C-Compiler.dir/main.cpp.o
  /home/cwk/c++/C-Compiler/AstNode.h
+ /home/cwk/c++/C-Compiler/CodeGen.h
  /home/cwk/c++/C-Compiler/Lexer.h
  /home/cwk/c++/C-Compiler/Parser.h
  /home/cwk/c++/C-Compiler/PrintVisitor.h

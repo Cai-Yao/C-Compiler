@@ -11,6 +11,8 @@ namespace CC {
     class PrintVisitor : public AstVisitor {
     public:
         void VisitorProgramNode(ProgramNode *node) override;
+
+    private:
         void VisitorBinaryNode(BinaryNode *node) override;
         void VisitorConstantNode(ConstantNode *node) override;
     };

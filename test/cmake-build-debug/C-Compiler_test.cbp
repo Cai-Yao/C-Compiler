@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C-Compiler_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cwk/c++/C-Compiler/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cwk/c++/C-Compiler/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cwk/c++/C-Compiler/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C-Compiler_test">
+				<Option output="/home/cwk/c++/C-Compiler/test/cmake-build-debug/C-Compiler_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cwk/c++/C-Compiler/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cwk/c++/C-Compiler/test/."/>
+					<Add directory="/home/cwk/c++/C-Compiler/test/../src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 C-Compiler_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C-Compiler_test/fast">
+				<Option output="/home/cwk/c++/C-Compiler/test/cmake-build-debug/C-Compiler_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cwk/c++/C-Compiler/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cwk/c++/C-Compiler/test/."/>
+					<Add directory="/home/cwk/c++/C-Compiler/test/../src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 C-Compiler_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cwk/c++/C-Compiler/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/AstNode.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/AstNode.h">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Lexer.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Lexer.h">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Parser.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Parser.h">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/PrintVisitor.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/src/PrintVisitor.h">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/test/main.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/test/test.cpp">
+			<Option target="C-Compiler_test"/>
+		</Unit>
+		<Unit filename="/home/cwk/c++/C-Compiler/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -123,167 +123,167 @@ C-Compiler/fast:
 	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/build
 .PHONY : C-Compiler/fast
 
-AstNode.o: AstNode.cpp.o
+src/AstNode.o: src/AstNode.cpp.o
 
-.PHONY : AstNode.o
-
-# target to build an object file
-AstNode.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.o
-.PHONY : AstNode.cpp.o
-
-AstNode.i: AstNode.cpp.i
-
-.PHONY : AstNode.i
-
-# target to preprocess a source file
-AstNode.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.i
-.PHONY : AstNode.cpp.i
-
-AstNode.s: AstNode.cpp.s
-
-.PHONY : AstNode.s
-
-# target to generate assembly for a file
-AstNode.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/AstNode.cpp.s
-.PHONY : AstNode.cpp.s
-
-CodeGen.o: CodeGen.cpp.o
-
-.PHONY : CodeGen.o
+.PHONY : src/AstNode.o
 
 # target to build an object file
-CodeGen.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/CodeGen.cpp.o
-.PHONY : CodeGen.cpp.o
+src/AstNode.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/AstNode.cpp.o
+.PHONY : src/AstNode.cpp.o
 
-CodeGen.i: CodeGen.cpp.i
+src/AstNode.i: src/AstNode.cpp.i
 
-.PHONY : CodeGen.i
+.PHONY : src/AstNode.i
 
 # target to preprocess a source file
-CodeGen.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/CodeGen.cpp.i
-.PHONY : CodeGen.cpp.i
+src/AstNode.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/AstNode.cpp.i
+.PHONY : src/AstNode.cpp.i
 
-CodeGen.s: CodeGen.cpp.s
+src/AstNode.s: src/AstNode.cpp.s
 
-.PHONY : CodeGen.s
+.PHONY : src/AstNode.s
 
 # target to generate assembly for a file
-CodeGen.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/CodeGen.cpp.s
-.PHONY : CodeGen.cpp.s
+src/AstNode.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/AstNode.cpp.s
+.PHONY : src/AstNode.cpp.s
 
-Lexer.o: Lexer.cpp.o
+src/CodeGen.o: src/CodeGen.cpp.o
 
-.PHONY : Lexer.o
+.PHONY : src/CodeGen.o
 
 # target to build an object file
-Lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Lexer.cpp.o
-.PHONY : Lexer.cpp.o
+src/CodeGen.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/CodeGen.cpp.o
+.PHONY : src/CodeGen.cpp.o
 
-Lexer.i: Lexer.cpp.i
+src/CodeGen.i: src/CodeGen.cpp.i
 
-.PHONY : Lexer.i
+.PHONY : src/CodeGen.i
 
 # target to preprocess a source file
-Lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Lexer.cpp.i
-.PHONY : Lexer.cpp.i
+src/CodeGen.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/CodeGen.cpp.i
+.PHONY : src/CodeGen.cpp.i
 
-Lexer.s: Lexer.cpp.s
+src/CodeGen.s: src/CodeGen.cpp.s
 
-.PHONY : Lexer.s
+.PHONY : src/CodeGen.s
 
 # target to generate assembly for a file
-Lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Lexer.cpp.s
-.PHONY : Lexer.cpp.s
+src/CodeGen.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/CodeGen.cpp.s
+.PHONY : src/CodeGen.cpp.s
 
-Parser.o: Parser.cpp.o
+src/Lexer.o: src/Lexer.cpp.o
 
-.PHONY : Parser.o
+.PHONY : src/Lexer.o
 
 # target to build an object file
-Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Parser.cpp.o
-.PHONY : Parser.cpp.o
+src/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Lexer.cpp.o
+.PHONY : src/Lexer.cpp.o
 
-Parser.i: Parser.cpp.i
+src/Lexer.i: src/Lexer.cpp.i
 
-.PHONY : Parser.i
+.PHONY : src/Lexer.i
 
 # target to preprocess a source file
-Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Parser.cpp.i
-.PHONY : Parser.cpp.i
+src/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Lexer.cpp.i
+.PHONY : src/Lexer.cpp.i
 
-Parser.s: Parser.cpp.s
+src/Lexer.s: src/Lexer.cpp.s
 
-.PHONY : Parser.s
+.PHONY : src/Lexer.s
 
 # target to generate assembly for a file
-Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/Parser.cpp.s
-.PHONY : Parser.cpp.s
+src/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Lexer.cpp.s
+.PHONY : src/Lexer.cpp.s
 
-PrintVisitor.o: PrintVisitor.cpp.o
+src/Parser.o: src/Parser.cpp.o
 
-.PHONY : PrintVisitor.o
+.PHONY : src/Parser.o
 
 # target to build an object file
-PrintVisitor.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o
-.PHONY : PrintVisitor.cpp.o
+src/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
 
-PrintVisitor.i: PrintVisitor.cpp.i
+src/Parser.i: src/Parser.cpp.i
 
-.PHONY : PrintVisitor.i
+.PHONY : src/Parser.i
 
 # target to preprocess a source file
-PrintVisitor.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.i
-.PHONY : PrintVisitor.cpp.i
+src/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
 
-PrintVisitor.s: PrintVisitor.cpp.s
+src/Parser.s: src/Parser.cpp.s
 
-.PHONY : PrintVisitor.s
+.PHONY : src/Parser.s
 
 # target to generate assembly for a file
-PrintVisitor.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.s
-.PHONY : PrintVisitor.cpp.s
+src/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
 
-main.o: main.cpp.o
+src/PrintVisitor.o: src/PrintVisitor.cpp.o
 
-.PHONY : main.o
+.PHONY : src/PrintVisitor.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/PrintVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/PrintVisitor.cpp.o
+.PHONY : src/PrintVisitor.cpp.o
 
-main.i: main.cpp.i
+src/PrintVisitor.i: src/PrintVisitor.cpp.i
 
-.PHONY : main.i
+.PHONY : src/PrintVisitor.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/PrintVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/PrintVisitor.cpp.i
+.PHONY : src/PrintVisitor.cpp.i
 
-main.s: main.cpp.s
+src/PrintVisitor.s: src/PrintVisitor.cpp.s
 
-.PHONY : main.s
+.PHONY : src/PrintVisitor.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/PrintVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/PrintVisitor.cpp.s
+.PHONY : src/PrintVisitor.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/C-Compiler.dir/build.make CMakeFiles/C-Compiler.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -294,24 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C-Compiler"
-	@echo "... AstNode.o"
-	@echo "... AstNode.i"
-	@echo "... AstNode.s"
-	@echo "... CodeGen.o"
-	@echo "... CodeGen.i"
-	@echo "... CodeGen.s"
-	@echo "... Lexer.o"
-	@echo "... Lexer.i"
-	@echo "... Lexer.s"
-	@echo "... Parser.o"
-	@echo "... Parser.i"
-	@echo "... Parser.s"
-	@echo "... PrintVisitor.o"
-	@echo "... PrintVisitor.i"
-	@echo "... PrintVisitor.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/AstNode.o"
+	@echo "... src/AstNode.i"
+	@echo "... src/AstNode.s"
+	@echo "... src/CodeGen.o"
+	@echo "... src/CodeGen.i"
+	@echo "... src/CodeGen.s"
+	@echo "... src/Lexer.o"
+	@echo "... src/Lexer.i"
+	@echo "... src/Lexer.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
+	@echo "... src/PrintVisitor.o"
+	@echo "... src/PrintVisitor.i"
+	@echo "... src/PrintVisitor.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

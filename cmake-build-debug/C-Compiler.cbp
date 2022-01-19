@@ -82,37 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cwk/c++/C-Compiler/AstNode.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/AstNode.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/AstNode.h">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/AstNode.h">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/CodeGen.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/CodeGen.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/CodeGen.h">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/CodeGen.h">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/Lexer.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Lexer.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/Lexer.h">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Lexer.h">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/Parser.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Parser.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/Parser.h">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/Parser.h">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/PrintVisitor.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/PrintVisitor.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/PrintVisitor.h">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/PrintVisitor.h">
 			<Option target="C-Compiler"/>
 		</Unit>
-		<Unit filename="/home/cwk/c++/C-Compiler/main.cpp">
+		<Unit filename="/home/cwk/c++/C-Compiler/src/main.cpp">
 			<Option target="C-Compiler"/>
 		</Unit>
 		<Unit filename="/home/cwk/c++/C-Compiler/CMakeLists.txt">

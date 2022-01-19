@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "C-Compiler"
   "C-Compiler.pdb"
-  "CMakeFiles/C-Compiler.dir/AstNode.cpp.o"
-  "CMakeFiles/C-Compiler.dir/CodeGen.cpp.o"
-  "CMakeFiles/C-Compiler.dir/Lexer.cpp.o"
-  "CMakeFiles/C-Compiler.dir/Parser.cpp.o"
-  "CMakeFiles/C-Compiler.dir/PrintVisitor.cpp.o"
-  "CMakeFiles/C-Compiler.dir/main.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/AstNode.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/CodeGen.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/Lexer.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/Parser.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/PrintVisitor.cpp.o"
+  "CMakeFiles/C-Compiler.dir/src/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
